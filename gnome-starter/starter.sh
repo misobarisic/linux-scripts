@@ -1,7 +1,9 @@
 #!/bin/bash
-chmod 777 *.sh
-git clone https://github.com/misobarisic.com/linux-look.git
+git clone https://github.com/misobarisic/linux-look.git
 cd linux-look
+mkdir ~/.icons/
+mkdir ~/.themes/
+mkdir ~/.cursors/
 mv icons/* ~/.icons/
 mv themes/* ~/.themes/
 mv cursors/* ~/.cursors/
